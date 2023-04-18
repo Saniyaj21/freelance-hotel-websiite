@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    z-index: 10;
+}
+
+.navbar-left img {
+    position: relative;
+    height: 82.7054443359375px;
+    width: 110px;
+    left: 120px;
+    top: 3px;
+    border-radius: 0px;
+}
+
+.navbar-middle ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-middle li {
+    margin-right: 30px;
+}
+
+.navbar-middle a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.navbar-middle a:hover {
+    color: #007bff;
+}
+
+.btn {
+    background-color: #00308F;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#call-btn {
+    position: relative;
+    height: 47px;
+    width: 219px;
+    right: 120px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0062cc;
+}
+
+/* home section */
+.home {
+    padding: 0px 120px;
+}
+
+.heading-home {
+    position: relative;
+    height: 229px;
+    width: 100%;
+    top: 37px;
+    border-radius: 0px;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.highlight-container {
+    position: relative;
+}
+
+.highlight {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.vectors-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1 {
+    align-self: flex-start;
+}
+
+.item2 {
+    align-self: flex-end;
+}
+
+.home-action-btn {
+    text-align: center;
+}
+
+#action-btn {
+    height: 60px;
+    width: 333px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.banner {
+    margin-top: 27px;
+}
+
+.img {
+    height: 474px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 6;
+}
+
+.bottom-div {
+    margin-top: -144px;
+    width: 100%;
+    height: 264px;
+    background-color: blue;
+    z-index: 5;
+}
